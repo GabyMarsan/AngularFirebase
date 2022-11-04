@@ -13,6 +13,7 @@ import {MatIconModule} from '@angular/material/icon';
 
 import { ReactiveFormsModule } from '@angular/forms';
 import { LoginGabyComponent } from './login-gaby/login-gaby.component';
+import { CoolSocialLoginButtonsModule } from '@angular-cool/social-login-buttons';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { LoginGabyComponent } from './login-gaby/login-gaby.component';
     MatButtonModule,
     MatInputModule,
     ReactiveFormsModule,
-    MatIconModule
+    MatIconModule,
+    CoolSocialLoginButtonsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
